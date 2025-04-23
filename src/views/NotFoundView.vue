@@ -1,6 +1,6 @@
 <script setup></script>
 
 <template>
-  Sorryyyyy, your route not found >_<
-  <span>404 Error</span>
+  <p class="text-center mt-10 mb-5">Sorryyyyy, your route not found >_<</p>
+  <p class="text-center font-bold font-mono">404 Error</p>
 </template>

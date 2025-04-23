@@ -9,17 +9,17 @@ const isActiveRoute = (exampleRoute) => {
 
 <template>
   <nav
-    class="flex items-center justify-center w-full h-10 border-b-2 bg-amber-100 border-b-amber-400"
+    class="flex items-center justify-center w-full h-10 border-b-2 bg-amber-100 border-b-amber-300"
   >
     <div
-      class="flex items-center justify-center w-full h-full space-x-3 md:justify-between md:pl-5 md:pr-5"
+      class="flex items-center justify-center w-full h-full space-x-3 sm:justify-between sm:px-5"
     >
       <RouterLink to="/">
         <div class="flex items-center justify-center">
           <div class="flex h-auto w-9">
             <img src="@/assets/logo.svg" />
           </div>
-          <span class="max-md:hidden font-[Verdana] ml-1 font-extrabold"
+          <span class="max-sm:hidden font-[Verdana] ml-1 font-extrabold"
             >This is my web-title!</span
           >
         </div>
