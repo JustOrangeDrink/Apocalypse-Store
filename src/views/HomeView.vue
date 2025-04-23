@@ -2,10 +2,16 @@
 import Navbar from "@/components/Navbar.vue";
 import Hero from "@/components/Hero.vue";
 import HomeCards from "@/components/HomeCards.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <Navbar />
-  <Hero />
-  <HomeCards />
+  <div class="flex flex-col justify-between min-h-screen">
+    <div>
+      <Navbar />
+      <Hero />
+      <HomeCards />
+    </div>
+    <Footer />
+  </div>
 </template>
