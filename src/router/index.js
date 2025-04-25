@@ -23,6 +23,11 @@ const router = createRouter({
       component: AddProductView,
     },
     {
+      path: "/catalog/:id",
+      name: "catalog-genre",
+      component: CatalogView,
+    },
+    {
       path: "/:catchAll(.*)",
       name: "not-found",
       component: NotFoundView,
