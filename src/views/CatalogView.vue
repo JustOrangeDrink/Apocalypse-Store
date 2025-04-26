@@ -1,5 +1,6 @@
 <script setup>
 import Navbar from "@/components/Navbar.vue";
+import CatalogList from "@/components/CatalogList.vue";
 import Footer from "@/components/Footer.vue";
 </script>
 
@@ -7,7 +8,7 @@ import Footer from "@/components/Footer.vue";
   <div class="flex flex-col justify-between min-h-screen">
     <div>
       <Navbar />
-      Thats where i keep my toy-dinosaurs collection at...
+      <CatalogList />
     </div>
     <Footer />
   </div>

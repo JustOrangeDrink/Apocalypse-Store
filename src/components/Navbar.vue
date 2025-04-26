@@ -9,7 +9,7 @@ const isActiveRoute = (exampleRoute) => {
 
 <template>
   <nav
-    class="flex items-center justify-center w-full h-10 border-b-2 bg-amber-100 border-b-amber-300"
+    class="flex items-center justify-center w-full h-10 border-b-4 bg-amber-100 border-b-amber-300"
   >
     <div
       class="flex items-center justify-center w-full h-full space-x-3 sm:justify-between sm:px-5"
