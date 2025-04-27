@@ -20,7 +20,7 @@ const isActiveRoute = (exampleRoute) => {
             <img src="@/assets/logo.svg" />
           </div>
           <span class="max-sm:hidden font-[Verdana] ml-1 font-extrabold"
-            >This is my web-title!</span
+            >Post-Apocalyptic prices as well!</span
           >
         </div>
       </RouterLink>
@@ -40,7 +40,7 @@ const isActiveRoute = (exampleRoute) => {
           <RouterLink
             to="/catalog"
             :class="
-              isActiveRoute('/catalog')
+              useRoute().path.match('catalog')
                 ? 'font-[Verdana] bg-amber-300 rounded-lg p-1 hover:bg-amber-400'
                 : 'font-[Verdana] p-1 rounded-lg hover:bg-black hover:text-white'
             "
