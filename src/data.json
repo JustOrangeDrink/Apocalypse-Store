@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Duct tape",
+      "type": "survival",
+      "description": "Duct tape can fix any problem!",
+      "preview": "",
+      "price": "3 money"
+    },
+    {
+      "id": 2,
+      "title": "Hammer",
+      "type": "survival",
+      "description": "In case duct tape wasn't enough",
+      "price": ""
+    }
+  ]
+}

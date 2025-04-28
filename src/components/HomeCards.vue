@@ -11,10 +11,11 @@ import { RouterLink } from "vue-router";
         Check our catalog and prepare for apocalypse today!
       </p>
       <RouterLink to="/catalog">
-        <a
+        <div
           class="inline-block px-4 py-2 text-white bg-black rounded-lg hover:bg-gray-700"
-          >Browse Catalog</a
         >
+          Browse Catalog
+        </div>
       </RouterLink>
     </Card>
     <Card bg="bg-red-100">
@@ -23,10 +24,11 @@ import { RouterLink } from "vue-router";
         Got a spare chainsaw in your garage? Feel free to sell it!
       </p>
       <RouterLink to="/add-product">
-        <a
+        <div
           class="inline-block px-4 py-2 text-white bg-red-500 rounded-lg hover:bg-red-700"
-          >Add Product</a
         >
+          Add Product
+        </div>
       </RouterLink>
     </Card>
   </div>

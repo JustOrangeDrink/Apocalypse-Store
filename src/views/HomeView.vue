@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar.vue";
 import Hero from "@/components/Hero.vue";
 import HomeCards from "@/components/HomeCards.vue";
-import CatalogCards from "@/components/CatalogCards.vue";
+import HomeCatalogCards from "@/components/HomeCatalogCards.vue";
 import Footer from "@/components/Footer.vue";
 </script>
 
@@ -12,7 +12,7 @@ import Footer from "@/components/Footer.vue";
       <Navbar />
       <Hero />
       <HomeCards />
-      <CatalogCards />
+      <HomeCatalogCards />
     </div>
     <Footer />
   </div>
