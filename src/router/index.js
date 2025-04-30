@@ -23,7 +23,7 @@ const router = createRouter({
       component: AddProductView,
     },
     {
-      path: "/catalog/:id",
+      path: "/catalog/:category",
       name: "catalog-genre",
       component: CatalogView,
     },
